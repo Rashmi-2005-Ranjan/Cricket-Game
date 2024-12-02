@@ -1,0 +1,61 @@
+*{
+background-color: #000000
+}
+
+
+.button {
+  margin-top: 100px;
+  background-color: #0fd977;
+  row-gap: 5px;
+  border: none;
+  margin: 20px 20px 20px 20px;
+  margin-top: 100px;}
+#bat {
+  background-image: url("images/bat.png");
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#ball {
+  background-image: url("images/ball.png");
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#stump {
+  background-image: url("images/stump.png");
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#reset {
+  color: rgb(0, 0, 0);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: large;
+  margin-top: 100px;
+  background-color: #0fd977;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  border: none;
+}
+
+.button:hover {
+  background-color: #ab359b;
+  cursor: pointer;
+  scale: 1.1;
+}
+#reset:hover {
+  background-color: #ab359b;
+  cursor: pointer;
+  scale: 1.1;
+}
+
